@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container,h1{
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#image-1{
+    width: 100vh;
+    height: 80vh;
+}
+footer{
+    grid-column: 1/3;
+    /* background-color: black; */
+    color: rgb(25, 25, 26);
+    height: 140px;
+    border: 1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#name,#password{
+    width: 70vh;
+    height: 50px;
+    border-radius: 10px;
+}
+#btn{
+    width: 70vh;
+    height: 50px;
+    border-radius: 25px;
+    background-color: blue;
+    color: aliceblue;  
+    cursor: pointer;
+}
+#forgotten{
+    width: 70vh;
+    height: 50px;
+    border-radius: 25px;
+    color: rgb(14, 14, 15); 
+    /* background-color: white;  */
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid transparent;
+}
+#forgotten:hover{
+    background-color: rgb(205, 203, 201);
+    opacity: 1;
+}
+#new{
+    width: 70vh;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    color: rgb(14, 14, 15);  
+    cursor: pointer;
+    margin-top: 30px;
+}
+#new:hover{
+    background-color: aliceblue;
+}
+#logo{
+    width: 50px;
+    height: 30px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+p{
+    /* padding: 10px; */
+    word-spacing: 15px;
+    cursor: pointer;
+}
+
+
